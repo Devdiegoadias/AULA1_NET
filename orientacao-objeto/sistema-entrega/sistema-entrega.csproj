@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>sistema_entrega</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\sistema-entrega-entity\sistema-entrega-entity.csproj" />
+    <ProjectReference Include="..\sistema-entrega-repositorio\sistema-entrega-repositorio.csproj" />
+  </ItemGroup>
+
+</Project>
